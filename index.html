@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+New Perspectives on HTML5 and CSS3, 8th Edition 
+Fitness Tracker
+Final project
+Author: Ahmed Salaudeen
+Date:  11/28/2024
+Filename: Tracker.html
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeenTrack - Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tracker.js" defer></script>
+</head>
+<body>
+    <div id="logo">
+        <h1>Fitness Tracker </h1>
+        <p>by Ahmed Salaudeen</p>
+    </div>
+    <div id="app">
+        <table class="tracker">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Workout</th>
+                    <th>Duration</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="tracker__entries"></tbody>
+            <tr class="tracker__row tracker__row--add">
+                <td colspan="4">
+                    <span class="tracker__add">Add Entry &plus;</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

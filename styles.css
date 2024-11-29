@@ -1,0 +1,120 @@
+html, body {
+    
+    background-image: url(lab.jpg);
+    background-repeat: repeat; 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f8f9fa;
+}
+
+#logo {
+    position: absolute;
+     top: 20px; left: 20px; text-align: center; background: #ffffff; padding: 20px; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+      #logo h1 { font-size: 2em; margin: 0; color: #009578; }
+       #logo p { font-size: 1em; color: #333; }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.tracker {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+
+
+.tracker,
+.tracker * {
+    font-family: 'Poppins', sans-serif; /* Updated font family */
+}
+
+.tracker th {
+    font-size: 1.15em;
+    text-align: left;
+    font-weight: normal;
+    color: #ffffff;
+    background: #009578;
+}
+
+.tracker th,
+.tracker td {
+    padding: 0.75em;
+}
+
+.tracker__entries .tracker__row {
+    background: #eeeeee;
+}
+
+.tracker__entries .tracker__row:nth-child(odd) {
+    background: #dddddd;
+}
+
+.tracker__date,
+.tracker__workout,
+.tracker__duration {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1em;
+    height: 2.5em;
+    padding: 0.5em 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.tracker__duration {
+    width: 5em;
+    text-align: right;
+}
+
+.tracker__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    color: red;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.tracker__button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.tracker__row--add {
+    border-top: 3px solid #333333;
+    border-bottom: 3px solid #333333;
+    background: #ffffff;
+}
+
+.tracker__row--add td {
+    text-align: right;
+}
+
+.tracker__add {
+    display: inline-block;
+    padding: 0.8em 1em;
+    color: green;
+    cursor: pointer;
+}
+
+
+.tracker__add:hover {
+    background:rgba(0, 0, 0, 0.1);
+}
+.timer { margin-top: 20px; text-align: center; font-family: 'Poppins', sans-serif; /* Match the rest of the page */ } 
+.timer__input { font-size: 1em; padding: 0.5em; margin-bottom: 10px; width: 50%; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+ .timer__start { font-size: 1em; padding: 0.5em 1em; color: white; background-color: #0f908c; border: none; cursor: pointer; font-family: 'Poppins', sans-serif; } 
+ .timer__start:hover { background-color: #b3a728; } 
+ .timer__display { font-size: 2em; margin-top: 10px; color: #eeeeee; font-family: 'Poppins', sans-serif; }
+ 
